@@ -17,10 +17,10 @@ class Navegacao extends Component {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className='menu'>
-                            <Nav.Link href="#Home">Home</Nav.Link>
-                            <Nav.Link href="#Serviços">Serviços</Nav.Link>
-                            <Nav.Link href="#Sobre-Equipe">Sobre-Equipe</Nav.Link>
-                            <Nav.Link href="#Agendamento-Contato">Agendamento-Contato</Nav.Link>
+                            <Nav.Link href="/">Home</Nav.Link>
+                            <Nav.Link href="servicos">Serviços</Nav.Link>
+                            <Nav.Link href="sobre-equipe">Sobre-Equipe</Nav.Link>
+                            <Nav.Link href="agendamento">Agendamento-Contato</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

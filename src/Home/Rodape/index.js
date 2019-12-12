@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import { MDBFooter } from "mdbreact";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
@@ -9,9 +9,9 @@ const Rodape = () => {
   return (
     <MDBFooter color="dark" className="font-small darken-3 pt-0 cor">
         <div className='icones'>
-          <a href="https://adrianafernandes.github.io/"> <FontAwesomeIcon icon={faFacebookF} /> </a>
-          <a href="https://adrianafernandes.github.io/"> <FontAwesomeIcon icon={faWhatsapp} /> </a>
-          <a href="https://adrianafernandes.github.io/"> <FontAwesomeIcon icon={faInstagram} /> </a>
+          <a href="https://www.facebook.com/JDstudiolapa/" target="#"> <FontAwesomeIcon icon={faFacebookF} /> </a>
+          <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511958183298" target="#"><FontAwesomeIcon icon={faWhatsapp} /> </a>
+          <a href="https://www.instagram.com/jd.studio/" target="#"> <FontAwesomeIcon icon={faInstagram} /> </a>
         </div>
     
       <div className="icones2">

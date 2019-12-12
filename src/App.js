@@ -1,18 +1,23 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navegacao from './Home/Navegacao';
-import CarouselPrincipal from './Home/CarouselPrincipal';
-import Rodape from './Home/Rodape'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './Home/index';
+import Servicos from './Servicos';
+import Sobre from './Sobre';
+import Contato from './Contato';
 import './App.css';
 
 function App() {
   return (
-    <div>
-      <Navegacao/>
-      <CarouselPrincipal/>
-      <Rodape/>
-    </div>
-  );
+    <Router>
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route path='/servicos' component={Servicos} />
+        <Route path='/sobre-equipe' component={Sobre} />
+        <Route path='/agendamento' component={Contato} />
+      </Switch>
+    </Router>
+  )
 }
 
-export default App;
+export default App
