@@ -11,31 +11,35 @@
 .cards-group{
     display: flex;
     justify-content: center;
-    width: 97vw;
+    width: 100vw;
 }
 
-.text {
+.text1 {
     text-align: center;
+
 }
-.btn {
+/* .btn {
     color: gray !important;
     background-color: whitesmoke;
     font-size: 16px;
     border: none;
     outline: none !important;
     box-shadow: none !important;
-} 
+}  */
 
 .whatsapp {
     width: 30px;
     height: 30px;    
 }
-
-.imagens{
-    width: 100%;
-    max-height: 72%;
+.imagens1{
+    width: 100% !important;
+    height: 300px !important; 
     object-fit: cover;
     object-position: center;
+}
+
+.card-img-top{
+    height: 250px;
 }
 
 @media (max-width: 767px){

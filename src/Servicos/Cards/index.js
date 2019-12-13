@@ -22,29 +22,29 @@ function Cards() {
         <Container className="box-cards">
             <div className='cards-group'>
                 <Card style={{ width: '18rem' }} className='box'>
-                    <Card.Img variant="top" className='imagens' src={Cabelos} alt="Dia da Noiva" />
-                    <Card.Body className='text'>
+                    <Card.Img variant="top" className='imagens1' src={Cabelos} alt="Dia da Noiva" />
+                    <Card.Body className='text1'>
                         <Card.Title>Cabelos</Card.Title>
                         <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511958183298" target="#"><Image className="whatsapp" src={Whatsapp} fluid /></a>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }} className='box'>
-                    <Card.Img variant="top" className='imagens' src={Maquiagem} alt="Dia da Noiva" />
-                    <Card.Body className='text'>
+                    <Card.Img variant="top" className='imagens1' src={Maquiagem} alt="Dia da Noiva" />
+                    <Card.Body className='text1'>
                         <Card.Title>Maquiagem</Card.Title>
                         <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511958183298" target="#"><Image className="whatsapp" src={Whatsapp} fluid /></a>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }} className='box'>
-                    <Card.Img variant="top" className='imagens' src={EsteticaFacial} alt="Dia da Noiva" />
-                    <Card.Body className='text'>
+                    <Card.Img variant="top" className='imagens1' src={EsteticaFacial} alt="Dia da Noiva" />
+                    <Card.Body className='text1'>
                         <Card.Title>Éstetica Facial</Card.Title>
                         <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511958183298" target="#"><Image className="whatsapp" src={Whatsapp} fluid /></a>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }} className='box'>
-                    <Card.Img variant="top" className='imagens' src={Manicure} alt="Dia da Noiva" />
-                    <Card.Body className='text'>
+                    <Card.Img variant="top" className='imagens1' src={Manicure} alt="Dia da Noiva" />
+                    <Card.Body className='text1'>
                         <Card.Title>Mãos e Pés</Card.Title>
                         <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511958183298" target="#"><Image className="whatsapp" src={Whatsapp} fluid /></a>
                     </Card.Body>
@@ -52,29 +52,29 @@ function Cards() {
             </div>
             <div className='cards-group'>
                 <Card style={{ width: '18rem' }} className='box'>
-                    <Card.Img variant="top" className='imagens' src={Noiva} alt="Dia da Noiva" />
-                    <Card.Body className='text'>
+                    <Card.Img variant="top" className='imagens1' src={Noiva} alt="Dia da Noiva" />
+                    <Card.Body className='text1'>
                         <Card.Title>Dia da Noiva</Card.Title>
                         <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511958183298" target="#"><Image className="whatsapp" src={Whatsapp} fluid /></a>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }} className='box'>
-                    <Card.Img variant="top" className='imagens' src={Debutante} alt="Dia da Noiva" />
-                    <Card.Body className='text'>
+                    <Card.Img variant="top" className='imagens1' src={Debutante} alt="Dia da Noiva" />
+                    <Card.Body className='text1'>
                         <Card.Title>Debutante</Card.Title>
                         <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511958183298" target="#"><Image className="whatsapp" src={Whatsapp} fluid /></a>
                     </Card.Body>
                 </Card>
                 {/* <Card style={{ width: '18rem' }} className='box'>
-                    <Card.Img variant="top" className='imagens' src={Noiva} alt="Dia da Noiva" />
-                    <Card.Body className='text'>
+                    <Card.Img variant="top" className='imagens1' src={Noiva} alt="Dia da Noiva" />
+                    <Card.Body className='text1'>
                         <Card.Title>Éstetica</Card.Title>
                         <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511958183298" target="#"><Image className="whatsapp" src={Whatsapp} fluid /></a>
                     </Card.Body>
                 </Card> */}
                 <Card style={{ width: '18rem' }} className='box'>
-                    <Card.Img variant="top" className='imagens' src={Massagem} alt="Dia da Noiva" />
-                    <Card.Body className='text'>
+                    <Card.Img variant="top" className='imagens1' src={Massagem} alt="Dia da Noiva" />
+                    <Card.Body className='text1'>
                         <Card.Title>Éstetica Corporal</Card.Title>
                         <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511958183298" target="#"><Image className="whatsapp" src={Whatsapp} fluid /></a>
                     </Card.Body>

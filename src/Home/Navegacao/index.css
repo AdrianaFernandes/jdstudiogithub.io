@@ -1,15 +1,12 @@
 .img-fluid {
     border-radius: 30%;
 }
-
-.navbar-collapse.collapse {
-    display: flex;
-    justify-content: center;
-    font-size: 19px;
+.navbar{
+    width: 100vw;
 }
 
-.menu > a {
-    margin: 0 30px;
+.menu {
+    margin: 0 40px;
     display: flex;
     justify-content: center;
 }
@@ -18,3 +15,7 @@
     max-width: 80px;
 }
 
+.nav_mae{
+    margin: 0 auto;
+    font-size: 20px;
+}

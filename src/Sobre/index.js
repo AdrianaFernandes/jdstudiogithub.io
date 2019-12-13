@@ -5,6 +5,7 @@ import Sobre_Cards from './Cards_Sobre'
 import Rodape from '../Home/Rodape'
 import Parallax from './Parallax';
 
+import './index.css'
 
 function Sobre() {
   return (

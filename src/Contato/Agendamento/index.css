@@ -1,0 +1,37 @@
+.box_agendamento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+}
+
+
+.box_contato {
+    margin: 30px 0;
+    font-size: 20px;
+    color: rgb(8, 14, 10);
+    text-indent: 1.3em;
+    margin: 0 60px;
+}
+.box_contato >a {
+    margin: 0 auto;
+}
+.mapas {
+    width: 400px;
+    height: 400px;
+    margin: 0 60px;
+}
+
+@media (max-width: 767px){
+    .box_agendamento{
+        flex-direction: column;
+    }
+    .mapas{
+        width: 90vw;
+        height: 50%;
+    }
+    .box_contato {
+        text-align: center;
+        font-size: 18px;
+    }
+}

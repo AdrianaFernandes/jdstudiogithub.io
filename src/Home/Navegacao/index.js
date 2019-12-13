@@ -6,22 +6,25 @@ import Image from 'react-bootstrap/Image'
 import './index.css';
 
 class Navegacao extends Component {
-    constructor() {
-        super();
-    }
+    // constructor() {
+    //     super();
+    // }
     render() {
         return (
             <div>
                 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                    <Image className="logo" src={Logo} fluid/>
+                    <Image className="logo" src={Logo} fluid />
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className='menu'>
-                            <Nav.Link href="/">Home</Nav.Link>
-                            <Nav.Link href="servicos">Serviços</Nav.Link>
-                            <Nav.Link href="sobre-equipe">Sobre-Equipe</Nav.Link>
-                            <Nav.Link href="contato">Contato</Nav.Link>
-                        </Nav>
+                        <div className='nav_mae'   >
+                            <Nav className="mr-auto">
+                                <Nav.Link className='menu' href="/">Home</Nav.Link>
+                                <Nav.Link className='menu' href="servicos">Serviços</Nav.Link>
+                                <Nav.Link className='menu' href="sobre-equipe">Sobre-Equipe</Nav.Link>
+                                <Nav.Link className='menu' href="contato">Contato</Nav.Link>
+
+                            </Nav>
+                        </div>
                     </Navbar.Collapse>
                 </Navbar>
             </div>
@@ -30,5 +33,5 @@ class Navegacao extends Component {
     }
 
 }
-
 export default Navegacao
+
