@@ -20,7 +20,7 @@ class Navegacao extends Component {
                             <Nav.Link href="/">Home</Nav.Link>
                             <Nav.Link href="servicos">Serviços</Nav.Link>
                             <Nav.Link href="sobre-equipe">Sobre-Equipe</Nav.Link>
-                            <Nav.Link href="agendamento">Agendamento-Contato</Nav.Link>
+                            <Nav.Link href="contato">Contato</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

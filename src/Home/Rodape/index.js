@@ -16,7 +16,7 @@ const Rodape = () => {
     
       <div className="icones2">
           &copy; {new Date().getFullYear()} Copyright: {" "}
-          <a className='dev' href="https://adrianafernandes.github.io/"> Adriana Fernandes</a>
+          <a className='dev' href="https://adrianafernandes.github.io/" target="#"> Adriana Fernandes</a>
       </div>
     </MDBFooter>
   );
