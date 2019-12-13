@@ -1,5 +1,4 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from 'react-bootstrap/Image'
 import { Card, Container } from 'react-bootstrap'
 import Cabelos from '../../assests/img/servicos/cabelo1.jpg'

@@ -1,5 +1,4 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Navegacao from '../Home/Navegacao';
 import Cards from './Cards'
 import Rodape from '../Home/Rodape'

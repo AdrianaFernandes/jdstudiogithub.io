@@ -1,7 +1,6 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Navegacao from '../Home/Navegacao';
-import Sobre_Cards from './Cards_Sobre'
+import CardsSobre from './CardsSobre'
 import Rodape from '../Home/Rodape'
 import Parallax from './Parallax';
 
@@ -12,7 +11,7 @@ function Sobre() {
     <div>
       <Navegacao/>
       <Parallax/>
-      <Sobre_Cards/>
+      <CardsSobre/>
       <Rodape/>
     </div>
   );
